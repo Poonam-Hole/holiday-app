@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { PopularDestinationsContext } from "../context/PopularDestinationsContext";
+import { PopularDestinationsContext } from "../../context/PopularDestinationsContext";
 
 const PopularDestinationCard = ({ destImg, place, price }) => {
   const popularDestinationsContext = useContext(PopularDestinationsContext);
