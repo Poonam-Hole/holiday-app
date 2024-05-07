@@ -14,6 +14,7 @@ import MatterhornPopup from "../MatterhornPopup";
 import PortalPopup from "../PortalPopup";
 import { useNavigate } from "react-router-dom";
 import PopularDestinationsContainer from "../PopularDestinations/PopularDestinationsContainer";
+import RecommendedCardsContainer from "../RecommendedHoliday/RecommendedCardsContainer";
 
 const Homepage = () => {
   const [
@@ -398,96 +399,7 @@ const Homepage = () => {
                   />
                 </button>
               </div>
-              <div className="self-stretch flex flex-row items-start justify-start ml-[-1rem] mr-[-1rem] md:ml-[-1rem] md:mr-[-1rem] md:flex-wrap">
-                <button className="cursor-pointer [border:none] py-[0rem] px-[1rem] bg-[transparent] flex-1 flex flex-col items-center justify-start box-border min-w-[14.375rem] w-3/12 md:w-6/12 md:mb-[2rem] sm:min-w-[15.625rem] sm:w-full sm:mb-[2rem]">
-                  <img
-                    className="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[15.125rem] object-cover"
-                    alt=""
-                    src="/unsplash5mv818tzxeo@2x.png"
-                  />
-                  <div className="self-stretch rounded-t-none rounded-b-3xs bg-white flex flex-col items-center justify-center py-[1.25rem] px-[1rem] border-[1px] border-solid border-whitesmoke">
-                    <div className="self-stretch flex flex-row items-center justify-start">
-                      <div className="flex flex-col items-start justify-start gap-[0.187rem]">
-                        <div className="self-stretch relative text-[1.25rem] tracking-[0.02em] font-medium font-roboto text-darkslategray-200 text-left">
-                          Bali
-                        </div>
-                        <div className="self-stretch relative text-[1rem] tracking-[0.02em] font-roboto text-darkgray text-left">
-                          4D3N
-                        </div>
-                      </div>
-                      <div className="relative text-[2rem] leading-[2.125rem] font-baloo-bhai text-cornflowerblue-200 text-right">
-                        $899
-                      </div>
-                    </div>
-                  </div>
-                </button>
-                <button className="cursor-pointer [border:none] py-[0rem] px-[1rem] bg-[transparent] flex-1 flex flex-col items-center justify-start box-border min-w-[14.375rem] w-3/12 md:w-6/12 md:mb-[2rem] sm:min-w-[15.625rem] sm:w-full sm:mb-[2rem]">
-                  <img
-                    className="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[15.125rem] object-cover"
-                    alt=""
-                    src="/switzerlandimage@2x.png"
-                  />
-                  <div className="self-stretch rounded-t-none rounded-b-3xs bg-white flex flex-col items-center justify-center py-[1.25rem] px-[1rem] border-[1px] border-solid border-whitesmoke">
-                    <div className="self-stretch flex flex-row items-center justify-start">
-                      <div className="flex flex-col items-start justify-start gap-[0.187rem]">
-                        <div className="self-stretch relative text-[1.25rem] tracking-[0.02em] font-medium font-roboto text-darkslategray-200 text-left">
-                          Swiss
-                        </div>
-                        <div className="self-stretch relative text-[1rem] tracking-[0.02em] font-roboto text-darkgray text-left">
-                          6D5N
-                        </div>
-                      </div>
-                      <div className="relative text-[2rem] leading-[2.125rem] font-baloo-bhai text-cornflowerblue-200 text-right">
-                        $900
-                      </div>
-                    </div>
-                  </div>
-                </button>
-                <button className="cursor-pointer [border:none] py-[0rem] px-[1rem] bg-[transparent] flex-1 flex flex-col items-center justify-start box-border min-w-[14.375rem] w-3/12 md:w-6/12 sm:min-w-[15.625rem] sm:w-full sm:mb-[2rem]">
-                  <img
-                    className="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[15.125rem] object-cover"
-                    alt=""
-                    src="/boracayimage@2x.png"
-                  />
-                  <div className="self-stretch rounded-t-none rounded-b-3xs bg-white flex flex-col items-center justify-center py-[1.25rem] px-[1rem] border-[1px] border-solid border-whitesmoke">
-                    <div className="self-stretch flex flex-row items-center justify-start">
-                      <div className="flex flex-col items-start justify-start gap-[0.187rem]">
-                        <div className="self-stretch relative text-[1.25rem] tracking-[0.02em] font-medium font-roboto text-darkslategray-200 text-left">
-                          Boracay
-                        </div>
-                        <div className="self-stretch relative text-[1rem] tracking-[0.02em] font-roboto text-darkgray text-left">
-                          5D4N
-                        </div>
-                      </div>
-                      <div className="relative text-[2rem] leading-[2.125rem] font-baloo-bhai text-cornflowerblue-200 text-right">
-                        $699
-                      </div>
-                    </div>
-                  </div>
-                </button>
-                <button className="cursor-pointer [border:none] py-[0rem] px-[1rem] bg-[transparent] flex-1 flex flex-col items-center justify-start box-border min-w-[14.375rem] w-3/12 md:w-6/12 sm:min-w-[15.625rem] sm:w-full">
-                  <img
-                    className="self-stretch relative rounded-t-3xs rounded-b-none max-w-full overflow-hidden h-[15.125rem] object-cover"
-                    alt=""
-                    src="/palawanimage@2x.png"
-                  />
-                  <div className="self-stretch rounded-t-none rounded-b-3xs bg-white flex flex-col items-center justify-center py-[1.25rem] px-[1rem] border-[1px] border-solid border-whitesmoke">
-                    <div className="self-stretch flex flex-row items-center justify-start">
-                      <div className="flex flex-col items-start justify-start gap-[0.187rem]">
-                        <div className="self-stretch relative text-[1.25rem] tracking-[0.02em] font-medium font-roboto text-darkslategray-200 text-left">
-                          Palawan
-                        </div>
-                        <div className="self-stretch relative text-[1rem] tracking-[0.02em] font-roboto text-darkgray text-left">
-                          4D3N
-                        </div>
-                      </div>
-                      <div className="relative text-[2rem] leading-[2.125rem] font-baloo-bhai text-cornflowerblue-200 text-right">
-                        $789
-                      </div>
-                    </div>
-                  </div>
-                </button>
-              </div>
+              <RecommendedCardsContainer />
               <div className="rounded-12xl bg-white w-[12.494rem] hidden flex-row items-start justify-start gap-[0.625rem] text-right text-[1.125rem] text-cornflowerblue-300 md:flex md:[mrgin-top:16px]">
                 <div className="relative tracking-[0.04em] font-medium inline-block w-[10.369rem] shrink-0 md:w-auto">
                   View all holidays
